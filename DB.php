@@ -8,10 +8,10 @@ class DB{
 
     public function __construct(){
        $this->host= 'localhost';
-        $this->db= 'uni_2024_students';
-        $this->user= 'nodeuser';
-        $this->password ='node2024!';
-        //$this->charset = 'utf8mb4';*/
+        $this->db= 'uni_2025';
+        $this->user= 'root';
+        $this->password ='UNEubuntu2024';
+        $this->charset = 'utf8mb4';
     }
     function connect(){
         try{
